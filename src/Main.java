@@ -20,9 +20,9 @@ public class Main {
         arrayList.add("F://Games/savegames/game2.dat");
         arrayList.add("F://Games/savegames/game3.dat");
         zipFiles("F://Games/savegames/zip.zip", arrayList);
-        File game1Dat = new File("F://Games//savegames/game1.dat");
-        File game2Dat = new File("F://Games//savegames/game2.dat");
-        File game3Dat = new File("F://Games//savegames/game3.dat");
+        File game1Dat = new File("F://Games/savegames/game1.dat");
+        File game2Dat = new File("F://Games/savegames/game2.dat");
+        File game3Dat = new File("F://Games/savegames/game3.dat");
         if (game1Dat.delete()) System.out.println("Файл \"game1.dat\" удален");
         if (game2Dat.delete()) System.out.println("Файл \"game2.dat\" удален");
         if (game3Dat.delete()) System.out.println("Файл \"game3.dat\" удален");
